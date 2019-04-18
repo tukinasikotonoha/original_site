@@ -1,0 +1,140 @@
+@media screen and (max-width: 767px){
+	.profile-image{
+		display: inline-block !important;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.blog-container{
+		padding-bottom: 40px;
+	}
+}
+
+.flex-caption {
+	padding: 3px 10px;
+	margin: 0;
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+}
+
+.blog-contents{
+	padding-top: 0px !important;
+	padding-bottom: 30px !important;
+}
+
+.blog-contents img{
+	margin-bottom: 50px;
+	border-radius: 40px;
+}
+
+.protfolio{
+	background-color: #f8f8f8;
+}
+
+/* ブログPR文余白 */
+.blog-pr{
+	margin-bottom: 10px !important;
+}
+
+/* ボタンCSS */
+.btn-stitch {
+  display: block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #f9bbff;
+  color: #FFF;
+  border-radius: 4px;
+  box-shadow: 0px 0px 0px 5px #f9bbff;
+	border: dashed 1px #FFF;
+	width: 75%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.btn-stitch:hover {
+  border: dotted 1px #FFF;
+}
+
+/* フッターTwitterフォローボタン */
+.btn-social-long-twitter {
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
+  display: inline-block;
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  vertical-align: middle;/*垂直中央寄せ*/
+  background: #1da1f3;
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
+}
+
+.btn-social-long-twitter .fa-twitter {
+  text-shadow: 2px 2px 0px #4287d6;
+  font-size: 30px;
+}
+
+.btn-social-long-twitter span {
+  display:inline-block;
+  transition: .5s;
+}
+
+.btn-social-long-twitter:hover span {
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}
+
+.footer .container {
+	padding: 30px 0 30px;
+}
+
+/* 20190412モーダルJqueryを追加 */
+.modal-content {
+	position:fixed;
+	display:none;
+	z-index:2;
+	width:60%;
+	margin:0;
+	padding:10px 20px;
+	border:2px solid #aaa;
+	background:#fff;
+}
+
+.modal-content p {
+	margin:0;
+	padding:0;
+}
+
+.modal-overlay {
+	z-index:1;
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:120%;
+	background-color:rgba(0,0,0,0.75);
+}
+
+.modal-open {
+	color:#00f;
+	text-decoration:underline;
+}
+
+.modal-open:hover {
+	cursor:pointer;
+	color:#f00;
+}
+
+.modal-close {
+	color:#00f;
+	text-decoration:underline;
+}
+
+.modal-close:hover {
+	cursor:pointer;
+	color:#f00;
+}
